@@ -1,0 +1,34 @@
+Last login: Thu Feb 20 14:06:10 on ttys001
+maclab-101:~ lucca001$ git status
+fatal: not a git repository (or any of the parent directories): .git
+maclab-101:~ lucca001$ ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+maclab-101:~ lucca001$ ls l
+ls: l: No such file or directory
+maclab-101:~ lucca001$ ls ls-output.txt
+ls: ls-output.txt: No such file or directory
+maclab-101:~ lucca001$ ls D
+Desktop/   Documents/ Downloads/ 
+maclab-101:~ lucca001$ ls Do
+Documents/ Downloads/ 
+maclab-101:~ lucca001$ ls Downloads/
+PHYS241Spring2020Syllabus.pdf
+Shotts2013_2-Navigation_TheLinuxCommandLine.pdf
+Shotts2013_4-ManipulatingFilesAndDirectories_TheLinuxCommandLine.pdf
+Shotts2013_6-Redirection_TheLinuxCommandLine.pdf
+maclab-101:~ lucca001$ history | less 
+maclab-101:~ lucca001$ history | less 
+maclab-101:~ lucca001$ history | grep /usr/bin
+   19  cd /usr/bin
+   21  cd /usr/bin
+   89  history | grep /usr/bin
+maclab-101:~ lucca001$ !88
+history | less 
+maclab-101:~ lucca001$ cd /usr/bin
+maclab-101:bin lucca001$ cd /usr/bin
+maclab-101:bin lucca001$ ls Downloads/
+ls: Downloads/: No such file or directory
+maclab-101:bin lucca001$ ls -l /usr/bin > ls-output.txt
+-bash: ls-output.txt: Operation not permitted
+maclab-101:bin lucca001$ 
